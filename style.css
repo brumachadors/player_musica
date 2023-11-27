@@ -1,0 +1,40 @@
+body {
+    background-image: linear-gradient(
+        #3B585D,
+        #1D282A);
+    height: 100vh;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;    
+}
+
+#cover {
+    width: 450px;
+}
+
+#below-cover {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    font-size: 1.5em;
+}
+
+.button-navigate {
+    font-size: 3em;
+}
+
+.button-biggest {
+    font-size: 4em;
+}
