@@ -6,7 +6,8 @@ body {
     color: white;
     font-family: sans-serif;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
+    align-items: center;    
 }
 
 #cover {
@@ -18,6 +19,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: 3em 0 1em 0;
 }
 
 #button-container {
@@ -37,4 +39,35 @@ body {
 
 .button-biggest {
     font-size: 4em;
+}
+
+#playlist-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1em 0 4em 0;
+}
+
+#song-name {
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.light-color {
+    color: #8B999C;
+}
+
+#progress-bar {
+    background-color: #8B999C;
+    height: 3px;
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 1em;
+}
+
+#current-progress {
+    background-color: #FFFFFF;
+    height: inherit;
+    width: 50%;
+    border-radius: inherit;
 }

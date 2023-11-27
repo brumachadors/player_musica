@@ -10,25 +10,31 @@
 </head>
 
 <body>
-    <h4>Player</h4>
-    <img id="cover" src="/img/this_is_why.jpg" alt="Capa do disco">
+    <div class="music-container">
+        <h4 id="playlist-title">Player</h4>
+        <img id="cover" src="/img/this_is_why.jpg" alt="Capa do disco">
 
-    <div id="below-cover">
-        <div id="song-info">
-            <p>nome da musica</p>
-            <p>nome da banda</p>
+        <div id="below-cover">
+            <div id="song-info">
+                <p id="song-name">nome da musica</p>
+                <p id="band-name" class="light-color">nome da banda</p>
+            </div>
+            <div id="like" class="button light-color"><i class="bi bi-heart"></i></div>
         </div>
-        <div id="like" class="button"><i class="bi bi-heart"></i></div>
-    </div>
 
-    <p>barra de progresso</p>
+        <div id="progress-bar">
+            <div id="current-progress">
 
-    <div id="button-container">
-        <div id="shuffle" class="button"><i class="bi bi-shuffle"></i></div>
-        <div id="previous" class="button button-navigate"><i class="bi bi-skip-start-fill"></i></div>
-        <div id="play" class="button button-biggest"><i class="bi bi-play-circle-fill"></i></div>
-        <div id="next" class="button button-navigate"><i class="bi bi-skip-end-fill"></i></div>
-        <div id="repeat" class="button"><i class="bi bi-repeat"></i></div>
+            </div>
+        </div>
+
+        <div id="button-container">
+            <div id="shuffle" class="button"><i class="bi bi-shuffle"></i></div>
+            <div id="previous" class="button button-navigate"><i class="bi bi-skip-start-fill"></i></div>
+            <div id="play" class="button button-biggest"><i class="bi bi-play-circle-fill"></i></div>
+            <div id="next" class="button button-navigate"><i class="bi bi-skip-end-fill"></i></div>
+            <div id="repeat" class="button"><i class="bi bi-repeat"></i></div>
+        </div>
     </div>
 </body>
 
